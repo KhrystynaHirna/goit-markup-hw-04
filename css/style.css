@@ -106,6 +106,22 @@
 .info-link:focus {
     color: var(--accent-color);
 }
+.item {
+    color: var(--paragraph-text-color);
+    display: flex;
+}
+.item:hover,
+.item-focus {
+    color: var(--accent-color);
+}
+.item-icon{
+ fill: currentColor;
+ margin-right: 10px;
+}
+.item-icon:hover {
+fill: var(--accent-color);
+}
+
 
 /* Унікальний контент сторінки */
 
