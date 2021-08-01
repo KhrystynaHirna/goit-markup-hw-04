@@ -321,22 +321,26 @@
     list-style: none;
     fill: var(--icon-color);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 0;
-    padding-bottom: 94px;
-    margin: 0;
+    padding-bottom: 94px; 
 }
 .clients-logo-item {
     width: 170px;
     height: 92px;
-    border: var(--icon-color);
+    border: 1px solid var(--icon-color);
     border-radius: 4px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.clients-logo-item:hover,
+.clients-logo-item:focus {
+   fill: var(--accent-color);
+   border-color: var(--accent-color); 
+}
+
 
  /* Підвал сторінки */
  .footer {
