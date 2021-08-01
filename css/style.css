@@ -121,9 +121,6 @@
 .item-icon:hover {
 fill: var(--accent-color);
 }
-.mail-icon {
-  
-}
 
 /* Унікальний контент сторінки */
 
@@ -193,17 +190,25 @@ fill: var(--accent-color);
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
-    margin-right: 0;
-}
-.advantage-icon {
-    background-color: var(--team-background-color);
-    
+    margin-right: 0;   
 }
 .advantage-icon-group {
- width: 270px;
- height: 120px;   
+    background-color: var(--team-background-color);
+    color: currentColor;
+    width: 270px;
+    height: 120px;   
+    border-radius: 4px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; 
+    padding: 0;
 }
-
+.satellite-icon {
+    text-align: center;
+    justify-content: center; 
+}
 .advantage {
     font-size: 14px;
     line-height: 1.1;
