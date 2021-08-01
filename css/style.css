@@ -283,7 +283,7 @@
      margin-top: 0;
      margin-bottom: 16px;
  }
- /* Іконки тім секція */
+ /* Іконки четверта секція */
 
 .team-icon-list {
     list-style: none;
@@ -311,6 +311,12 @@
 .team-icon-item:focus {
     background-color: var(--accent-color);
     fill: var(--body-background-color);
+}
+
+/* П'ята секція + іконки */
+.clients-logo {
+    list-style: none;
+    fill: var(--icon-color);
 }
 
  /* Підвал сторінки */
