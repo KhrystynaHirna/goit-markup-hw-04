@@ -298,11 +298,19 @@
 .team-icon-item {
     width: 44px;
     height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
 }
 .team-icon-item:not(:last-child){
     margin-right: 10px;
 }
-
+.team-icon-item:hover,
+.team-icon-item:focus {
+    background-color: var(--accent-color);
+    fill: #FFFFFF;
+}
 
  /* Підвал сторінки */
  .footer {
