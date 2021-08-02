@@ -350,9 +350,14 @@
      padding: 60px 0;
      margin-top: 0;
      margin-bottom: 0;
+ }
 
-
+ .footer-container {
      display: flex;
+     align-items: baseline;
+ }
+ .address-container {
+     margin-right: 70px;
  }
  /* Лого футер */
  
@@ -373,6 +378,7 @@
      letter-spacing: 0.03em;
  
      padding: 0;
+     width: 231px;
  }
  .physical-address {
      color: var(--body-background-color);
@@ -389,9 +395,7 @@
      color: var(--accent-color);
  }
  
- .contact {
-     padding-left: 215px;
- }
+ 
 .join {
     padding-left: 0;
 }
@@ -407,8 +411,8 @@
     list-style: none;
     fill: var(--body-background-color);
     display: flex;
-    
     align-items: center;
+    padding-left: 0;
 }
 .join-icon-item {
     width: 44px;
