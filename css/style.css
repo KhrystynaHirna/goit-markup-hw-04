@@ -104,6 +104,7 @@
      padding: 0;
      margin-left: auto;
      display: flex;
+     align-items: center;
  }
  .info-link {
      color: var(--paragraph-text-color);
@@ -115,6 +116,7 @@
  .item {
      color: var(--paragraph-text-color);
      display: flex;
+     align-items: center;
  }
  .item:hover,
  .item-focus {
@@ -123,10 +125,6 @@
  .item-icon {
   fill: currentColor;
   margin-right: 10px;
- 
- }
- .item-icon:hover {
- fill: var(--accent-color);
  }
  
  /* Унікальний контент сторінки */
@@ -168,7 +166,6 @@
      font-family: inherit;
      font-size: 16px;
      line-height: 1.9;
-     text-align: center;
      letter-spacing: 0.06em;
  
      box-shadow: var(--primary-button-shadow);
@@ -293,7 +290,6 @@
 
 .team-icon-list {
     list-style: none;
-    fill: var(--icon-color);
     padding-left: 32px;
     padding-right: 32px;
     margin-bottom: 30px;
@@ -309,6 +305,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%; 
+    fill: var(--icon-color);
 }
 .team-icon-item:not(:last-child){
     margin-right: 10px;
@@ -399,12 +396,9 @@
  .address .link:focus {
      color: var(--accent-color);
  }
- 
- 
 .join {
     padding-left: 0;
 }
-
 .join-title {
     font-size: 14px;
     line-height: 1.1;
