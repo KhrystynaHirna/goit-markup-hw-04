@@ -322,7 +322,6 @@
 }
 .clients-logo-list {
     list-style: none;
-    fill: var(--icon-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -333,10 +332,14 @@
     height: 92px;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
+    fill: var(--icon-color);
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.clients-logo-item .link {
+    border: none;
 }
 .clients-logo-item:hover,
 .clients-logo-item:focus {
