@@ -411,7 +411,6 @@
 }
 .join-icon-list {
     list-style: none;
-    fill: var(--body-background-color);
     display: flex;
     align-items: center;
     padding-left: 0;
@@ -423,6 +422,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%; 
+    fill: var(--body-background-color);
     background-color: var(--icon-background-color);
 }
 .join-icon-item:not(:last-child){
