@@ -108,6 +108,8 @@
  }
  .info-link {
      color: var(--paragraph-text-color);
+     display: flex;
+     align-items: center;
  }
  .info-link:hover,
  .info-link:focus {
@@ -175,6 +177,7 @@
      min-width: 200px;
      text-align: center;
      margin-top: 0;
+     cursor: pointer;
  }
  
  /* Секція друга */
@@ -459,7 +462,8 @@
    border: transparent;
   
    padding: 6px 22px;
-   margin-top: 0;    
+   margin-top: 0;
+   cursor: pointer;    
 }
 .nav-button:not(:last-child) {
    margin-right: 8px;
@@ -483,8 +487,12 @@
 .portfolio-card:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.portfolio-card:hover,
-.portfolio-card:focus {
+.portfolio-link {
+    text-decoration: none;
+    display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
     box-shadow: var(--portfolio-card-shadow);
 }
 .card-text {
@@ -511,6 +519,7 @@ img {
    margin-top: 0;
    margin-bottom: 0;
    min-width: 322px;
+   color: var(--primary-text-color);
 }
 .item-description {
    color: var(--paragraph-text-color);
